@@ -3,23 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
+#logo{
+    float:left;
+     width: clamp(150px, 2.5vw, 300px);
+    height: clamp(70px, 1vw, 300px);
+}
+.links{
+    float: inline-start;
+    width: clamp(30px, 2.5vw, 300px);
+    height: clamp(20px, 2.5vw, 300px);
+}
 img{
     float: left;
     width: 30v;
     height: 40vh;
     max-width: 100%;
-    
-     
-
 }
-
+p{
+ 
+    font-size: clamp(15px, 1vw, 20px);
+    color: rgb(0, 0, 0);
+    text-align: justify;
+    padding: 2%;
+}
 nav{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2.5%;
+    padding: 1.5%;
     background-color: #000000;
-    gap: 20px;
     text-align: center; 
     width: 100vw;
 }
@@ -27,26 +37,20 @@ a{
     text-align: left;
     color: white;
     text-decoration: none;
-    font-size: 20px;
-     text-align: center;
+    font-size: clamp(13px, 1vw, 20px);
 }
 ul{
     display: flex;
     text-align: center;
-    gap: 10%;
+    gap: 10%;  
 }
-.links{
-    float: inline-start;
-    width: 4.5vw;
-    height: 4vh;
-    
-}
+
 
 aside{
     display: float;
     justify-content: right;
     align-items: right;
-    width: 30%;
+    width: 30vw;
     background-color: #aaa4a4;
     color: rgb(0, 0, 0);
     font-size: 20px;
