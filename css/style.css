@@ -5,12 +5,15 @@
 }
 #logo{
     float:left;
-     width: clamp(150px, 2.5vw, 300px);
-    height: clamp(70px, 1vw, 300px);
+     width: clamp(120px, 2.5vw, 300px);
+    height: clamp(70px, 1vw, 280px);
 }
 .links{
     width: clamp(30px, 2.5vw, 300px);
     height: clamp(20px, 2.5vw, 300px);
+}
+main{
+   
 }
 img{
     float: left;
@@ -19,7 +22,6 @@ img{
     max-width: 100%;
 }
 p{
- 
     font-size: clamp(15px, 1vw, 20px);
     color: rgb(0, 0, 0);
     text-align: justify;
@@ -44,16 +46,13 @@ ul{
     gap: 3%;  
 }
 
-
 aside{
-    justify-content: right;
-    align-items: right;
-    width: 30vw;
+    width: 30%;
     background-color: #aaa4a4;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    height: 60vh;
     float: right;
-    height: 70vh;
-
-    
+}
+footer{
+  
 }
