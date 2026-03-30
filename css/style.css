@@ -3,17 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
-.redes{
-    width: 100px;
-    height: 200px;
-}
 #logo{
     float:left;
      width: clamp(150px, 2.5vw, 300px);
     height: clamp(70px, 1vw, 300px);
 }
 .links{
-    float: inline-start;
     width: clamp(30px, 2.5vw, 300px);
     height: clamp(20px, 2.5vw, 300px);
 }
@@ -23,11 +18,6 @@ img{
     height: 40vh;
     max-width: 100%;
 }
-a:hover{
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    
-}
 p{
  
     font-size: clamp(15px, 1vw, 20px);
@@ -36,13 +26,13 @@ p{
     padding: 2%;
 }
 nav{
-    display: flex;
     padding: 1.5%;
     background-color: #000000;
     text-align: center; 
     width: 100vw;
 }
 a{
+    display: inline-flex;
     text-align: left;
     color: white;
     text-decoration: none;
@@ -51,11 +41,11 @@ a{
 ul{
     display: flex;
     text-align: center;
-    gap: 10%;  
+    gap: 3%;  
 }
 
+
 aside{
-    display: float;
     justify-content: right;
     align-items: right;
     width: 30vw;
@@ -64,4 +54,6 @@ aside{
     font-size: 20px;
     float: right;
     height: 70vh;
+
+    
 }
