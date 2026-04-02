@@ -12,11 +12,11 @@
     height: clamp(20px, 2.5vw, 300px);
 }
 
-main{
-     
-}
-img{
-    
+a:hover{
+    color: #ff0000;
+    transition: 0.4s;
+    border-radius: 7px;
+    padding: 1%;
 }
 p{
     font-size: clamp(15px, 1vw, 20px);
